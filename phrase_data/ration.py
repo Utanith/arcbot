@@ -19,7 +19,11 @@ data = {
             '{acc}, {entree}, {desert}', '{substitute_entree}, {extras}',
             '{acc_package}, {entree}, {desert}', '{substitute_entree}'],
 
-        'acc_package' : ['{acc}, {acc1}, {acc2}'],
+        'coffee' : ['coffee, instant {coffee_type}', 'Taster\'s Choice',
+            'coffee, instant {coffee_type}, {coffee_style}', 'instant coffee',
+            'Nestle'],
+
+        'acc_package' : ['{acc}, {acc1}, {acc2}, {coffee}'],
 
         'acc' : ['a spork', 'a spoon', 'a sugar packet', 'a creamer packet',
             'toilet paper'],
