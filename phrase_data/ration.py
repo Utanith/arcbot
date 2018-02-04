@@ -13,42 +13,55 @@ data = {
             'brand new', 'nearly expired', 'questionable'],
 
         'nationality' : ['German', 'Russian', 'Japanese', 'Korean',
-            'Norwegian', 'British', 'Italian', 'US'],
+            'Norwegian', 'British', 'Italian', 'US', 'Thai',
+            'Soviet'],
 
-        'contents' : ['{acc_package}, {entree}, {side}, {desert}, and {extras}',
-            '{acc}, {entree}, and {desert}', '{substitute_entree}, and {extras}',
-            '{acc_package}, {entree}, and {desert}', '{substitute_entree}'],
+        'contents' : ['{acc_package}, {meal_package}, {drink}',
+            '{acc}, {meal_package}', '{meal_package}, {drink} and {extras}'],
 
-        'coffee' : ['coffee, instant {coffee_type}',
+        'coffee' : ['coffee instant {coffee_type}',
             'Taster\'s Choice instant coffee',
             'coffee instant {coffee_type} {coffee_style}', 'instant coffee',
-            'Nestle instant coffee'],
+            'Nestlé instant coffee'],
+        
+        'meal_package' : ['{entree}, {side}, {desert}', '{entree}, {desert}',
+           '{entree}', '{substitute_entree}'],
 
         'coffee_type' : ['type I', 'type II'],
 
         'coffee_style' : ['style I', 'style II', 'style A'],
+        
+        'drink' : ['electrolyte {beverage_mix}', '{beverage_mix}', '{tea}'],
+        
+        'beverage_mix' : ['{flavor} beverage mix', 'beverage mix'],
+        
+        'flavor' : ['lemon', 'cherry',],
 
+        'tea' : ['tea-flavored drink mix', 'a Nestlé tea bag'],
+        
         'acc_package' : ['{acc}, {acc1}, {acc2}, {coffee}'],
 
-        'acc' : ['a spork', 'a spoon', 'a sugar packet', 'a creamer packet',
-            'toilet paper'],
+        'acc' : ['a spork', 'a spoon', 'a knife'],
 
         'acc1' : ['a pack of cigarettes', 'chewing gum',
-            'water purification tablets'],
+            'a packet of creamer', 'a packet of sugar'],
 
-        'acc2' : ['vitamins', 'a matchbook', 'toothpaste'],
+        'acc2' : ['vitamins', 'toothpaste', 'a toothbrush',
+            'water purification tablets', 'toilet paper'],
 
-        'entree' : ['a {date} can of {entree_meat}',
-            'a {date} can of biscuits', 'a {smell} {entree_meat} bar'],
+        'entree' : ['{cans} {entree_meat}',
+            '{cans} biscuits', 'a {smell} {entree_meat} bar'],
 
         'smell' : ['terrible smelling', 'slightly chemical scented', 'rancid'],
 
         'entree_meat' : ['spaghetti and meatballs', 'bacon', 'cured ham',
-            'beef stew'],
+            'beef stew', 'liver pâté', 'chicken curry'],
+        
+        'cans' : ['a can of', 'a {date} can of', 'a rusted-through can of'],
 
-        'side' : ['a can of peanut butter', 'a {date} can of {fruit}',
-            'a can of {fruit} jelly', 'a {date} jelly bar',
-            'a {date} can of {vegetable}', 'a cheese bar'],
+        'side' : ['{cans} peanut butter', '{cans} {fruit}',
+            '{cans} {fruit} jelly', 'a {date} jelly bar',
+            '{cans} {vegetable}', 'a cheese bar'],
 
         'fruit' : ['pineapple', 'apple', 'pear', 'lemon', 'lime'],
 
@@ -61,6 +74,7 @@ data = {
         'extras' : ['a flameless ration heater', 'a plastic bag',
             'a list of the contents', 'a P-38 can opener'],
 
-        'substitute_entree' : ['3 boullion cubes', 'a compressed food bar',],
+        'substitute_entree' : ['3 boullion cubes', 'a compressed food bar',
+            'a package of hard candy'],
     },
 }
