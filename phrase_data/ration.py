@@ -33,9 +33,10 @@ data = {
         
         'drink' : ['electrolyte {beverage_mix}', '{beverage_mix}', '{tea}'],
         
-        'beverage_mix' : ['{flavor} beverage mix', 'beverage mix'],
+        'beverage_mix' : ['{flavor} beverage mix', 'beverage mix',
+            'Cocoa beverage powder'],
         
-        'flavor' : ['lemon', 'cherry',],
+        'flavor' : ['lemon', 'cherry', 'chocolate'],
 
         'tea' : ['tea-flavored drink mix', 'a Nestlé tea bag'],
         
@@ -76,5 +77,5 @@ data = {
 
         'substitute_entree' : ['3 boullion cubes', 'a compressed food bar',
             'a package of hard candy'],
-    },
+    }
 }
